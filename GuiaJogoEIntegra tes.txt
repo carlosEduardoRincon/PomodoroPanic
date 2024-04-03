@@ -1,0 +1,46 @@
+                                                                                                                                                                    
+88888888ba                                                          88                                        88888888ba                            88              
+88      "8b                                                         88                                        88      "8b                           ""              
+88      ,8P                                                         88                                        88      ,8P                                           
+88aaaaaa8P'   ,adPPYba,   88,dPYba,,adPYba,    ,adPPYba,    ,adPPYb,88   ,adPPYba,   8b,dPPYba,   ,adPPYba,   88aaaaaa8P'  ,adPPYYba,  8b,dPPYba,   88   ,adPPYba,  
+88""""""'    a8"     "8a  88P'   "88"    "8a  a8"     "8a  a8"    `Y88  a8"     "8a  88P'   "Y8  a8"     "8a  88""""""'    ""     `Y8  88P'   `"8a  88  a8"     ""  
+88           8b       d8  88      88      88  8b       d8  8b       88  8b       d8  88          8b       d8  88           ,adPPPPP88  88       88  88  8b          
+88           "8a,   ,a8"  88      88      88  "8a,   ,a8"  "8a,   ,d88  "8a,   ,a8"  88          "8a,   ,a8"  88           88,    ,88  88       88  88  "8a,   ,aa  
+88            `"YbbdP"'   88      88      88   `"YbbdP"'    `"8bbdP"Y8   `"YbbdP"'   88           `"YbbdP"'   88           `"8bbdP"Y8  88       88  88   `"Ybbd8"'  
+                                                                                                                                                                    
+                                                                                                                                                                    
+by: Carlos Eduardo Rincon Junior
+
+Inicialmente, ao iniciar o jogo é apresentado um menu com diferentes opções para escolher, estas são:
+- "Start": inicia o jogo;
+- "Help": exibe uma tela explicando as principais regras do jogo;
+- "Quit": fecha o jogo;
+
+Além das opções existentes no menu, é possível se movimentar com o personagem no menu principal para a seleção da dificuldade, para movimentar o personagem
+os comandos estão configurados da seguinte forma:
+- "W","w" e seta para cima pula;
+- "A,"a" e seta para esquerda move o boneco para esquerda;
+- "D,"d" e seta para direita move o boneco para direita;
+
+O jogo é iniciado com um dificuldade padrão, contudo ao coletar algum dos blocos de dificuldade, tal dificuldade é alterada assim também a cor do personagem.
+A alteração da dificuldade implica no aumento ou na diminuição do tempo de que o jogador tem para coletar os 10 pontos necessários.
+- "Easy": 60 segundos;
+- "Normal": 45 segundos;
+- "Hard": 30 segundos;
+
+Ao selecionar opção "Start" no menu principal o jogo se inicia e o principal objetivo é coletar os pontos antes que o tempo se esgote. Para coletar pontos 
+é necessário mover o personagem até os pontos menores que vão ser dispostos na tela para assim coletá-los. Ao passar por cima do ponto, o personagem troca 
+de cor simbolizando a captura do ponto, e logo é gerado um outro ponto em uma posição aleatória.  Contudo só é possível coletar um ponto por vez, dessa forma 
+para contabilizar o ponto deve-se direcionar o personagem ao depósito, que é simbolizado pela casa no canto esquerdo da tela. Quando passar pelo depósito
+o ponto é contabilizado e é retornado a cor original do personagem, o qual está liberado para capturar mais pontos.
+
+Ao coletar os pontos necessários antes do tempo é mostrado uma mensagem do resultado do jogo, vitória ou caso contrário derrota, e o jogador pode escolher 
+voltar ao menu principal do jogo ou simplesmente fechar o jogo. 
+
+Por fim, existe como bônus diferentes interfaces de acordo com a preferência do usuário, incialmente a 
+interface apresentada é a com as cores originais, contudo ao pressionar o botão direito do mouse na tela, é possível escolher outras duas opções de interfaces:
+- "Black mode";
+- "Light mode";
+
+Integrantes:
+Carlos Eduardo Rincon Junior - m315125
